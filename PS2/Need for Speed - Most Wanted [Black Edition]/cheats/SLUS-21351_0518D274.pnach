@@ -1,0 +1,6 @@
+gametitle=Need for Speed - Most Wanted [Black Edition] [NTSC-U] [SLUS-21351]
+
+[Infinite Money]
+author=Steelmax
+description=Gives Cash that never decreases.
+patch=1,EE,00AAFF10,word,3B9AC9FF
