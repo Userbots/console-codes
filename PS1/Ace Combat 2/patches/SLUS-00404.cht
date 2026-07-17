@@ -1,5 +1,4 @@
 # Ace Combat 2 (USA) [SLUS-00404]
-
 [Persistent Camera]
 Type = Gameshark
 Activation = EndFrame
@@ -13,21 +12,21 @@ Author = Steelmax
 
 D00B820C 0002 # m1
 D00B8850 0001 # sp
-300B868C 0001 # cm 
+300B868C 0001 # cm
 
 D00B820C 0002 # m1
 D00B8850 0002 # sp
-300B868C 0002 # cm 
+300B868C 0002 # cm
 
 # Save user pref
 D00B820C 0001 # m2
-D00B868C 0001 # cm 
+D00B868C 0001 # cm
 300B8850 0001 # sp
 
 D00B820C 0001 # m2
-D00B868C 0002 # cm 
+D00B868C 0002 # cm
 300B8850 0002 # sp
 
 # Demo/attract fix
 D00B7D14 0005
-D00B868C 0000 # cm 
+D00B868C 0000 # cm
