@@ -10,6 +10,13 @@ Author = Steelmax
 # m2 = Mission in progress flag
 # cm = Camera mode: 0x01 - 1st person, 0x02 - 3rd person, 0x00 - inactive
 
+# A DuckStation "cheat" with Option version of this patch that allows to select the game's default camera in the dropdown.
+# Uncomment for cheat, remove for patch.
+#Option = First Person:1
+#Option = Third Person:2
+#D0010000 0000 # First mem init
+#300B8850 00??
+
 D00B820C 0002 # m1
 D00B8850 0001 # sp
 300B868C 0001 # cm
