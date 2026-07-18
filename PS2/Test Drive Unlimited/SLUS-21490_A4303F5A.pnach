@@ -1,0 +1,4 @@
+[Give 100 Million Credits]
+author=AshMetalRaf, Steelmax
+description=Grants 100,000,000 Credits.
+patch=1,EE,1ABC6E8,word,2BD8FB
