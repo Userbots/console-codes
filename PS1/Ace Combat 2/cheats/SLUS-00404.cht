@@ -1,0 +1,19 @@
+# Ace Combat 2 (USA) [SLUS-00404]
+
+# Use this cheat with caution. Pending for a revision.
+# Requires a different button combo for Novice controls.
+# Will prematurely end a mission, break mission timer, campaign XP progression, awards wrong amount of credits, etc.
+[Mission Instant Win]
+Description = Press L1+L2+R1+R2+Triangle to pass the current mission. Scores and mission timer are broken.
+Type = Gameshark
+Activation = EndFrame
+Author = Steelmax
+# Check for keys being held
+E00B7FB0 00F0
+E00B7FB1 0001
+E00B7FB2 0000
+E00B7FB3 0038
+# Check if mission is in progress
+E00B820C 0001
+# Write the Mission Accomplished flag
+300B820C 0004
